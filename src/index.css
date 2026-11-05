@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #23252c;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-width: 400;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 320px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.container {
+  padding-inline: 36px;
+}
